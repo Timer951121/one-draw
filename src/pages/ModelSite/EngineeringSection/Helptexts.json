@@ -1,0 +1,20 @@
+{
+    "engl-title" :  "You’ve selected the Engineering Letter. If FEA is needed, please return to the main menu on the left side of your screen and click the appropriate button.<br/>- You can download a PDF version of the EL by clicking the icon to the right of this title.<br/>- If you’ve made modifications and wish to see an updated preview, click update icon to the right of download.<br/>-If you’ve updated and wish to return to the original fields and previews click the Reset button to the right of the update icon.",
+    "enga-title" :  "You’ve selected the Final Engineering Affidavit. If an Engineering Letter is needed, please return to the main menu on the left side of your screen and click the appropriate button.<br/>- You can download a PDF version of the FEA by clicking the icon to the right of this title.<br/>- If you’ve made modifications and wish to see an updated preview, click update icon to the right of download.<br/>-If you’ve updated and wish to return to the original fields and previews click the Reset button to the right of the update icon.",
+    "eng-structural-notes" : "This is the “Special Structural Notes” from the Township for this Opportunity.",
+    "eng-installation-type" : "This is the “Installation Type” listed on the Opportunity. If incorrect, please notify the appropriate team to update in Salesforce.",
+    "eng-exposure-category" : "Please select the appropriate Exposure Category. This field must be selected to print this letter.",
+    "eng-wind-criteria" : "Please enter the accurate Wind Criteria. This field must be entered and greater than 0 to print.",
+    "eng-snow-load" : "Please enter the accurate Snow Load. This field must be entered and greater than 0 to print.",
+    "eng-snow-load-per" : "Please enter how the appropriate snow load was calculated for this structure.",
+    "eng-structure-type" : "The Structure type will default to the value selected on the Roofs in the Building Attributes of oneDRAW. If necessary, please update and click update to see an updated Preview of this section of the document.",
+    "eng-roof-loading-override" : "The default Preview of the Roof Loading for this AHJ is displayed to the right. If necessary, please select Override and the “…PSF – existing roof...” bullet point will be limited to one roof.",
+    "eng-modifications-needed" : "If modifications are needed for this installation, please turn on the modifications needed. (If update is clicked, the Preview will update accordingly)",
+    "eng-code" : "This is the default Code for this AHJ and a Preview of this section of the document. If necessary, update the code. (If update is clicked, the Preview will update accordingly)",
+    "eng-mounting-bracket-override" : "This is the default Mounting Brackets for this AHJ and a Preview of this section of the document. If necessary, update the Mounting Bracket Override. (If update is clicked, the Preview will update accordingly)",
+    "eng-roof-framing" : "This is the default preview for the Roof Framing section of the letter. If modifications are needed please update the Roofs in the Building Attributes in oneDRAW.",
+    "affid-title" : "You’ve selected the Final Engineering Affidavit. If an Engineering Letter is needed, please return to the main menu on the left side of your screen and click the appropriate button.<br/>- You can download a PDF version of the EL by clicking the icon to the right of this title. <br/> - If you’ve made modifications and wish to see an updated preview, click update icon to the right of download. <br/>- If you’ve updated and wish to return to the original fields and previews click the Reset button to the right of the update icon.",
+    "affid-structural-notes" : "This is the “Special Structural Notes” from the Township for this Opportunity.",
+    "affid-installation-type" : "This is the “Installation Type” listed on the Opportunity. If incorrect, please notify the appropriate team to update in Salesforce.",
+    "affid-preview" : "Below is a preview of the FEA for this opportunity."
+}

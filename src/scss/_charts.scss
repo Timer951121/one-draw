@@ -1,0 +1,45 @@
+// Circular Progress Bar
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  @media (max-width: 1366px) {
+    flex-direction: column;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__circle {
+    width: 80px;
+    height: 80px;
+
+    .CircularProgressbar-text {
+      transform: translate(-17px, 8px);
+      @media (prefers-color-scheme: dark) {
+        fill: var(--textColor) !important;
+      }
+    }
+  }
+
+  &__label {
+    font-size: 16px;
+    color: var(--textMedium);
+  }
+}
+
+.chart-column > div {
+  min-height: 150px !important;
+  max-height: 150px !important;
+}
+
+.apexcharts-legend-text {
+  font-size: 14px !important;
+  color: var(--textColor) !important;
+}

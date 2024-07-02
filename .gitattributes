@@ -1,0 +1,2 @@
+*.yml binary
+azure-pipelines.yml linguist-generated=true

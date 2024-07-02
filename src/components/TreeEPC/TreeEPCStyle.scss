@@ -1,0 +1,13 @@
+.epc_popUp{
+    position: fixed;
+    top: 14%;
+    right: 26%;
+    z-index: 333;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 200px;
+    max-width: 36%;
+    height: auto;
+    transition: var(--transition-md);
+    height: 325px;
+}

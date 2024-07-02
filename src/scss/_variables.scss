@@ -1,0 +1,87 @@
+// Variables
+
+:root, body.light-theme {
+  --white:#ffffff;
+  --black: #000000;
+  --red: #f22129;
+  --blue: #1091f4;
+  --orange: #ef9834;
+  --blue: #1cbaec;
+  --purple: #a3a7f2;
+  --pink: #d972c0;
+
+  --pText: #ffffff;
+  --accent: #42454a;
+  --aText: #ffffff;
+
+  --textColor: #171a1f;
+  --textMedium: #565d6d;
+  --textLite: #9095a1;
+  --textAlt: #bdc1ca;
+
+  --iconColor: #a8adb7;
+
+  --border: #dee1e6;
+  --borderAlt: #e4e4e7;
+
+  --bgColorOne: #f3f4f6;
+  --bgColorTwo: #f8f9fa;
+  --bgColorThree: #c8cee8;
+  --bgColorFour: #c0c1c2;
+  --bgColorFive: #c6c6c6;
+
+  --bgLite: #ffffff;
+  --bgDark: #22242a;
+  --hoverBg: #f2f2f2;
+  --modalBg: rgba(255, 255, 255, 0.8);
+
+  --headerBg: #42454a;
+  --editorBg: #eef0f8;
+  --bgLite: #ffffff;
+  --inputBg: #ffffff;
+  --tableHead: #f8f9fa;
+
+  --labelBgOne: #f3f4f6;
+  --labelBgTwo: #f5f2fd;
+  --labelBgThree: #f4f7fb;
+
+  --labelColorOne: #323743;
+  --labelColorTwo: #8353e2;
+  --labelColorThree: #538abc;
+
+  --transition-sm: all 0.3s ease-in-out;
+  --transition-md: all 0.5s ease-in-out;
+}
+
+[data-theme="dark"], body.dark-theme {
+  --textColor: #ffffff;
+  --textMedium: #b9babc;
+  --textLite: #6c6c71;
+
+  --border: #3f3f41;
+  --borderAlt: #3f3f41;
+
+  --bgColorOne: #2c2d33;
+  --bgColorTwo: #f8f9fa;
+  --bgColorThree: #3a393e;
+  --bgColorFour: #c0c1c2;
+  --bgColorFive: #4f4f4f;
+
+  --headerBg: #1c1d21;
+  --editorBg: #2c2d33;
+  --bgLite: #22242a;
+  --bgDark: #22242a;
+  --hiliteBg: #2c2d33;
+  --inputBg: #3a393e;
+  --tableHead: #3a393e;
+  --hoverBg: #3a393e;
+  --modalBg: rgba(0, 0, 0, 0.5);
+
+  --labelBgOne: #324342;
+  --labelBgTwo: #8353e2;
+  --labelBgThree: #538abc;
+
+  --labelColorOne: #ffffff;
+  --labelColorTwo: #ffffff;
+  --labelColorThree: #ffffff;
+}

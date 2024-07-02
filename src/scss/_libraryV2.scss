@@ -1,0 +1,234 @@
+// Antd Button
+[hidden]{
+  display:none;
+}
+
+a{
+  color: #69b1ff !important;
+}
+a:hover{
+  //darken the color
+    color: var(--text-dark) !important;
+
+}
+
+.ant-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    //max-width: fit-content;
+    height: 40px;
+    box-shadow: inherit !important;
+
+    @media (max-width: 1366px) {
+        height: 35px;
+    }
+
+    &.ant-btn-icon-only {
+        width: 40px;
+        max-width: none;
+
+        @media (max-width: 1366px) {
+            width: 35px;
+        }
+    }
+
+  &.ant-btn-lg {
+    height: 50px;
+
+        @media (max-width: 1366px) {
+            height: 45px;
+        }
+
+        &.ant-btn-icon-only {
+            width: 50px;
+            padding: 0;
+
+            @media (max-width: 1366px) {
+                width: 45px;
+            }
+        }
+    }
+}
+
+.ant-btn.ant-btn-block {
+  max-width: none;
+}
+
+.tab__column {
+    .ant-btn.active {
+        background-color: var(--primary);
+        color: var(--pText);
+        border-color: var(--primary);
+    }
+}
+
+// Antd Checkbox
+.ant-checkbox .ant-checkbox-inner {
+  width: 18px;
+  height: 18px;
+
+  &::after {
+    width: 6px;
+    height: 10px;
+  }
+}
+// Antd Popover
+.ant-popover {
+  .ant-popover-inner {
+    padding: 15px;
+  }
+
+  .ant-popover-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+
+// Antd Form
+.ant-form-item {
+  margin-bottom: 15px;
+}
+
+.ant-form-large .ant-form-item .ant-form-item-label > label {
+  height: auto;
+}
+
+// Antd Flex and Space
+.ant-space-vertical {
+  width: 100%;
+}
+
+// Antd Modal
+.ant-modal-root .ant-modal-centered .ant-modal {
+  min-width: 50vw;
+}
+
+.ant-modal .ant-modal-content {
+    padding: 30px 35px;
+
+    @media (max-width: 1366px) {
+        max-height: 80vh;
+        overflow: auto;
+    }
+}
+
+// Antd Menu
+.ant-menu-vertical >.ant-menu-submenu>.ant-menu-submenu-title {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 1366px) {
+        width: 45px;
+        height: 45px;
+    }
+
+    .ant-menu-title-content {
+        display: none;
+    }
+}
+
+.ant-menu-vertical > .ant-menu-submenu.submenu-inner .ant-menu-submenu-title {
+  width: calc(100% - 8px);
+  margin-inline: 4px;
+  margin-block: 4px;
+  padding-inline: 16px;
+
+  .ant-menu-title-content {
+    display: inline-block;
+  }
+}
+
+.ant-menu-submenu-popup .ant-menu-vertical .ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-light {
+  background-color: var(--bg-header);
+}
+
+//.ant-d-toolti{
+//    background: var(--textColor);
+//}
+
+.ant-table-thead {
+  .ant-table-cell {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+  }
+}
+
+.antd-tooltip-open {
+  background-color: red !important;
+  color: var(--white) !important;
+}
+
+// Antd Alert
+.ant-alert.page-alert {
+  position: fixed;
+  top: 80px;
+  right: 28%;
+  max-width: 320px;
+}
+
+//.ant-select-dropdown.ant-select-dropdown-open .ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-selected {
+//  background-color: var(--primary) !important;
+//  color: var(--pText);
+//}
+
+.ant-select-item-option-selected{
+  background-color: var(--primary) !important;
+  color: var(--pText) !important;
+}
+
+.ant-select {
+  width: 100%;
+}
+
+.ant-select-item-option-content{
+  white-space: normal !important;
+}
+
+.ant-divider{
+  border-color: var(--borderAlt) !important;
+}
+.alertError{
+  .ant-message-notice-content{
+    background: #d24b4bb2 !important ;
+    color: white !important;
+  }
+}
+
+.alertSuccess{
+  .ant-message-notice-content{
+    background: #2e8b57c4  !important ;
+    color: white !important;
+  }
+}
+
+.apexcharts-tooltip.apexcharts-theme-light{
+    background: var(--bg-header) !important;
+    color: var(--textColor) !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title{
+  background: var(--bg-header) !important;
+  color: var(--textColor) !important;
+}
+
+.apexcharts-menu{
+    background: var(--bg-header) !important;
+    color: var(--textColor) !important;
+
+}
+.disabled-area{
+  pointer-events: none;
+  opacity: 0.5;
+}

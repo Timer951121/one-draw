@@ -1,0 +1,77 @@
+[
+    {
+        "label" : "No Override",
+        "value" : "No Override"
+    },
+    {
+        "label" : "CT - IRC2021/CT-IBC2022",
+        "value" : "CT - IRC2021/CT-IBC2022"
+    },
+    {
+        "label" : "CT - IRC2016/CT-IBC2018",
+        "value" : "CT - IRC2016/CT-IBC2018"
+    },
+    {
+        "label" : "NY - 2020/IRC2018",
+        "value" : "NY - 2020/IRC2018"
+    },
+    {
+        "label" : "NJ - IRC2021",
+        "value" : "NJ - IRC2021"
+    },
+    {
+        "label" : "NJ - IRC2018",
+        "value" : "NJ - IRC2018"
+    },
+    {
+        "label" : "NJ - IRC2015",
+        "value" : "NJ - IRC2015"
+    },
+    {
+        "label" : "MD - IRC2018",
+        "value" : "MD - IRC2018"
+    },
+    {
+        "label" : "MD - IRC2009",
+        "value" : "MD - IRC2009"
+    },
+    {
+        "label" : "MD - IRC2015",
+        "value" : "MD - IRC2015"
+    },
+    {
+        "label" : "MD - IRC2021",
+        "value" : "MD - IRC2021"
+    },
+    {
+        "label" : "MA - IBC2015 Palmer/Monson",
+        "value" : "MA - IBC2015 Palmer/Monson"
+    },
+    {
+        "label" : "MA - IBC2015",
+        "value" : "MA - IBC2015"
+    },
+    {
+        "label" : "RI - IBC2015/RI2019",
+        "value" : "RI - IBC2015/RI2019"
+    },
+    {
+        "label" : "PA - IRC2015",
+        "value" : "PA - IRC2015"
+    },
+    {
+        "label" : "PA - IRC2018",
+        "value" : "PA - IRC2018"
+    },
+    {
+        "label" : "NH - IRC2018/IBC2018",
+        "value" : "NH - IRC2018/IBC2018"
+    },
+    {
+        "label" : "FL - IRC2020",
+        "value" : "FL - IRC2020"
+    },
+    {
+        "label" : "FL - IRC2023",
+        "value" : "FL - IRC2023"
+    }]
